@@ -10,4 +10,3 @@ Incluye conexión a **MySQL**, generación de **gráficos** con `matplotlib`, e 
 - Matplotlib (Gráficos)
 - Pdfkit y Jinja2 (Generación de PDF)
 
-## 📥 Instalación y Uso
