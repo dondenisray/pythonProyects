@@ -1,6 +1,6 @@
-# 📊 Examen Python SGE
+# 📊 Python
 
-Esta es un interfaz desarrollado en **Python**.  
+Esta es una interfaz desarrollada en **Python**.  
 Incluye conexión a **MySQL**, generación de **gráficos** con `matplotlib`, e **impresión de PDF** con `pdfkit`.
 
 ## 🛠️ Tecnologías Utilizadas
