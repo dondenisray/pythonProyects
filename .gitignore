@@ -1,0 +1,12 @@
+# Ignorar archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Ignorar archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Ignorar PDFs generados
+*.pdf

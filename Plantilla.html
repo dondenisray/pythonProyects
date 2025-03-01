@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Temperaturas</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Estilos para el PDF -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #74B0CF;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Reporte de Temperaturas</h1>
+    <table>
+        <tr>
+            <th>Comunidad</th>
+            <th>Temp Máxima (°C)</th>
+            <th>Temp Mínima (°C)</th>
+        </tr>
+        {% for comunidad, max_temp, min_temp in temperaturas %}
+        <tr>
+            <td>{{ comunidad }}</td>
+            <td>{{ max_temp }}</td>
+            <td>{{ min_temp }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    
+
+</body>
+</html>
